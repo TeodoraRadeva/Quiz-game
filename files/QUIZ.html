@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple quiz</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <main>
+      <header>
+        <img src="KL.png" alt="Logo">
+        <h1>Игра в Центъра</h1>
+      </header>
+      <div id="results">
+        <div class="container">
+          <div class="result-text">Въпроси</div>
+          <div id="count" class="counting">0</div>
+          <div class="result-text">Резултат</div>
+          <div id="score" class="field">0</div>
+        </div>
+      </div>
+      <div class="flex">
+        <div id="question" class="questionField"></div>
+      </div>
+      <div class="answers">
+        <div class="flex">
+          <div class="field">A)</div>
+          <button id="answerA" class="answer" onclick="answerA_clicked()"></button>
+        </div>
+        <div class="flex">
+          <div class="field">Б)</div>
+          <button id="answerB" class="answer" onclick="answerB_clicked()"></button>
+        </div>
+        <div class="flex">
+          <div class="field">В)</div>
+          <button id="answerC" class="answer" onclick="answerC_clicked()"></button>
+        </div>
+        <div class="flex">
+          <div class="field">Г)</div>
+          <button id="answerD" class="answer" onclick="answerD_clicked()"></button>
+        </div>
+      </div>
+      <script src="work.js"></script>
+    </main>
+  </body>
+</html>
