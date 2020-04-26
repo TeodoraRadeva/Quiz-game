@@ -1,0 +1,43 @@
+@font-face {
+  font-family: klFont;
+  src: url(KAUFLANDOFFICE-RG.TTF);
+}
+body {
+  background-color: #bababa;
+  text-align: center;
+}
+i {
+  font-size: 15vw;
+  color:  #3b3b3b;
+  margin-top: 6vw;
+  display: inline-block;
+  padding: 0px 10px;
+}
+p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  font-size: 35px;
+  font-family: "klFont";
+  color:  #293133;
+  text-shadow: 7px 4px 8px #fff;
+  font-weight:bold;
+}
+button {
+	width: 15vw;
+	height: 15vw;
+	background-image: url('resultBtn.png');
+	background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-size: 25px;
+  text-shadow: 7px 4px 8px #3b3b3b;
+  border-radius: 50%;
+  border: 0px ;
+}
+button:hover{
+	width: 17vw;
+	height: 17vw;	
+}
